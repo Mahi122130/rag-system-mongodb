@@ -1,0 +1,26 @@
+{
+  "name": "rag-express",
+  "version": "1.0.0",
+  "description": "RAG System with Express and MongoDB",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "mongodb": "^6.20.0",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.7.0",
+    "voyageai": "^0.0.8"
+  }
+}
